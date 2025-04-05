@@ -1,0 +1,47 @@
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    flex-direction: row;
+    align-items: center;
+
+    
+}
+
+.card{
+    background-color: rgb(249, 4, 241,0.5);
+    flex-basis: 30%;
+    border: 5px solid black; 
+    padding-left: 2%;
+}
+
+button{
+    color: rgb(255, 13, 0,1);
+    background-color: rgb(51, 255, 0,0.6)
+}
+h1,h2{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+@media(max-width:700px){
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .card{
+        margin-top: 20px;
+        padding: 5%;
+        width: 200px;
+    }
+    h1,h2{
+        margin-bottom: 0%;
+        padding-top: 0%;
+        margin-top: 0%;
+        padding-bottom: 0%;
+    }
+}
